@@ -1,4 +1,8 @@
-# To complete
+#!/bin/bash
 
-WINEARCH=win64 WINEPREFIX=~/wol/Ableton_Live_11_Intro ~/wol/Ableton_Live_11_Intro/drive_c/ProgramData/Ableton/"Live 11 Intro"/Program/"Ableton Live 11 Intro.exe"
+# Define variables
+wine_prefix="$HOME/wol/Ableton_Live_11_Lite"
+ableton_exe="$wine_prefix/drive_c/ProgramData/Ableton/Live\ 11\ Lite/Program/Ableton\ Live\ 11\ Lite.exe"
 
+# Launch Ableton Live 11 Lite
+WINEARCH=win64 WINEPREFIX="$wine_prefix" wine "$ableton_exe"
