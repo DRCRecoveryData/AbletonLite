@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Terminal=true
+Terminal=false
 Name=Ableton Live 11 Lite
-Icon=~/wol/Ableton_Live_11_Lite/icon.png
-Exec=~/wol/Ableton_Live_11_Lite/startup.sh
+Icon=/home/<username>/wol/Ableton_Live_11_Lite/icon.png
+Exec=/home/<username>/wol/Ableton_Live_11_Lite/startup.sh
